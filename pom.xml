@@ -6,6 +6,7 @@
 
 	<properties>
 		<zk.version>8.0.1</zk.version>
+		<spring.version>4.3.7.RELEASE</spring.version>
 	</properties>
 
 	<packaging>war</packaging>
@@ -40,6 +41,14 @@
 			<groupId>org.zkoss.zk</groupId>
 			<artifactId>zul</artifactId>
 			<version>${zk.version}</version>
+		</dependency>
+
+		<!-- Spring dependencies -->
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
 		</dependency>
 
 		<!-- other -->
